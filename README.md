@@ -25,7 +25,7 @@ The choice of hyperparameters for SVMs is significantly less when compared to ML
 
 
 
-Conclusion, Lessons learnt & Future Work 
+## Conclusion, Lessons learnt & Future Work 
 
 In conclusion we learnt that the SVM was better at predicting whether the quality of water was safe to drink or not, however the SVM was not perfect with it showing some biasness towards the false negative values. Comparing my results to the papers I have read, my results were less accurate, however, this may be due to the dataset not being entirely the same. What I have learnt that having more hypermeters in a model does not mean that it would perform any better, having only tuned 3 hypermeters in my SVM model, with 6 being used for the MLP model. As well as that checking the quality of the results from the training stage will ensure that the best performing model is put forward, so just because a model is showing high accuracy, does not mean it will generalise well, even though K Fold is used. Going forward I would like to use a computer with more GPUs as this will allow me to use a wider range of hyperparameters and a K 10/15 K-fold Cross validation. Also get more data so that training size is able to increase. In addition to this, able to combine both models to create a hybrid [12].
 <img width="451" height="688" alt="image" src="https://github.com/user-attachments/assets/0f013321-54c3-40d3-bd53-03fbe5750b5c" />
